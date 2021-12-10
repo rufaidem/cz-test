@@ -1,7 +1,7 @@
 import * as React from "react"
 import { useEffect, useState } from "react";
 import "../css/index.css";
-
+import "../js/added.js";
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
 import Particles from "react-particles-js"
@@ -149,7 +149,7 @@ const IndexPage = () => {
             <nav class="nav container">
               <div class="nav_logo">
                 <a href="#" >                  
-                  <StaticImage src="../images/logo1.png" class="logo" className="logo" alt="czodiac logo" />  
+                  <StaticImage src="../images/logo2.png" class="logo" className="logo" alt="czodiac logo" />  
                 </a>
               </div>                                                         
               <div class="nav__menu" id="nav-menu">
@@ -189,7 +189,7 @@ const IndexPage = () => {
 
         <div className="item">
           <div id="home" className="jumpMarker" />
-          <h1 > A next-generation Defi 2.0 Technologies on BSC Network</h1>
+          <h1 > A next generation Defi 2.0 Technologies on BSC Network</h1>
           <br/>
           
           <br/><br/>
@@ -241,7 +241,7 @@ const IndexPage = () => {
                 <div class="activity animate-from-bottom__0">
                   <div class="relative-block">
                     <div class="activity-icon">
-                      <img alt="An image" src="https://i.ibb.co/ZWp3Yts/ad-operations-process-strategy.png"/>
+                      <img class="whiteline" alt="An image" src="https://i.ibb.co/s3znYkF/Picture4.png"/>
                     </div>
                     <div class="inactive">
                       <div class="title">Stim Farms </div>
@@ -257,13 +257,13 @@ const IndexPage = () => {
                 <div class="activity animate-from-bottom__1">
                   <div class="relative-block">
                     <div class="activity-icon">
-                      <img alt="An image" src="https://i.ibb.co/s2nghrT/ad-operations-process-strategy-activation.png" alt="ad-operations-process-strategy-activation"/>
+                      <img class="whiteline" alt="An image" src="https://i.ibb.co/89r2n9x/Picture2.png" alt="ad-operations-process-strategy-activation"/>
                     </div>
                     <div class="inactive">
                       <div class="title">Exotic Farms </div>
                     </div>
                     <div class="active">
-                      <div class="title">Mobile App Development</div>
+                      <div class="title">Exotic Farms</div>
                       <div class="sub-title">
                         Burn CZF to earn rewards each block for the vesting period. Rewards can be fast forwarded from the future at a discount. APR is set at a base level until enough deposits are collected at which point the APR begins to fall.
                       </div>
@@ -273,13 +273,13 @@ const IndexPage = () => {
                 <div class="activity animate-from-bottom__2">
                   <div class="relative-block">
                     <div class="activity-icon">
-                      <img alt="An image" src="https://i.ibb.co/ZWp3Yts/ad-operations-process-strategy.png"/>
+                      <img class="whiteline" alt="An image" src="https://i.ibb.co/JqZQxPB/Picture3.png"/>
                     </div>
                     <div class="inactive">
                       <div class="title">Chrono Pools</div>
                     </div>
                     <div class="active">
-                      <div class="title">WordPress</div>
+                      <div class="title">Chrono Pools</div>
                       <div class="sub-title">
                         Exotic Farms are a Defi 2.0 farming system that protects depositors from Impermanent Loss while providing high APR. Deliver liquidity tokens (LP) to earn vesting CZF. The amount of vesting CZF is equal to the value of the LP in CZF plus interest. 
                       </div>
