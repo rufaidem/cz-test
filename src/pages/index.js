@@ -1,9 +1,29 @@
 import * as React from "react"
 import { useEffect, useState } from "react";
-import "../css/index.css"
+import "../css/index.css";
+import "../js/added.js";
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
 import Particles from "react-particles-js"
+
+const cards = document.querySelectorAll(".box");
+
+cards.forEach((card) => {
+  card.addEventListener("mousemove", (e) => {
+    const rect = card.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / card.clientWidth) * 100;
+    const y = ((e.clientY - rect.top) / card.clientHeight) * 100;
+
+    card.style.background = `radial-gradient(circle closest-corner
+      at ${x}% ${y}%,
+      var(--ripple-color), var(--bg-color))`;
+  });
+
+  card.addEventListener("mouseleave", (event) => {
+    card.style.removeProperty("background");
+  });
+});
+
 
 const particlesParams = {
   particles: {
@@ -165,7 +185,7 @@ const IndexPage = () => {
 
         <div className="item">
           <div id="home" className="jumpMarker" />
-          <h1 > Defi 1.0 + Defi 2.0 = CZfarm </h1>
+          <h1 > A next-generation Defi 2.0 Technologies on BSC Network</h1>
           <br/>
           
           <br/><br/>
@@ -178,81 +198,99 @@ const IndexPage = () => {
 
           <div className="btn-redirect">
             <div className="btn"><a className="one" target="_blank" href="https://czodiac.gitbook.io/czodiac-litepapper/"><b>Whitepaper</b></a></div>
-            <div className="btn"><a className="two" href="http://app.czodiac.com"><b>Farm &amp; Pool</b></a></div>
+            <div className="btn"><a className="two" href="http://app.czodiac.com"><b>launch app</b></a></div>
           </div>
           <br/><br/>
         </div>
 
         <div class="pol">
           <h2> Protocol Owned Liquidity </h2>
-          <div class="paragraph--type--card-row">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  protects depositors from Impermanent Loss by using Liquidity.
-                </p>
-              </div>
+
+          <div class="box-container">
+            <div class="box">
+               
+                <h3>protects depositors from Impermanent Loss by using Liquidity.</h3>
+                <p></p>
             </div>
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  The protocol itself own the LP tokens, not the user or creator.
-                </p>
-              </div>
+            <div class="box">
+               
+              <h3>The protocol itself own the LP tokens, not the user or creator.</h3>
+              <p></p>
             </div>
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  providing high APR without loosing its value due to Lp withdraw.
-                </p>
-              </div>
+            <div class="box">
+              
+              <h3>providing high APR without loosing its value .</h3>
+              <p></p>
             </div>
           </div>
+
         </div>
         
 
         <div class="feature">
-        <div id="farm" className="jumpMarker" />
-        
-        <StaticImage className="image" src="../images/czfarm.jpg" alt="czfarm" />
-        <h2> Farm 2.0 </h2>
-          <div class="paragraph--type--card-row">
-            <div class="card">
-              <div class="card-image">
-                <StaticImage src="../images/czfarm.jpg" alt="stim farms" />
-              </div>
-              <div class="card-content">
-                <h3> <a href=""> Stim Farms </a></h3>
-                <p>
-                Users deposit Liquidity (LP) tokens into Stim Farms during a 24 hour window. After the window expires, rewards vest for 1 week. At the end of the week, CZF is distributed to the depositors equal to the value of the LP plus a high APR.
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image"> 
-                <StaticImage src="../images/czfarm.jpg" alt="stim farms" />
-              </div>
-              <div class="card-content">
-                <h3><a href=""> Exotic Farms </a>  </h3>
-                <p>
-                Burn CZF to earn rewards each block for the vesting period. Rewards can be fast forwarded from the future at a discount. APR is set at a base level until enough deposits are collected at which point the APR begins to fall.
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image">
-                <StaticImage src="../images/czfarm.jpg" alt="stim farms" />
-              </div>
-              <div class="card-content">
-                <h3><a href=""> Chrono Pools </a> </h3>
-                <p>
-                Exotic Farms are a Defi 2.0 farming system that protects depositors from Impermanent Loss while providing high APR. Deliver liquidity tokens (LP) to earn vesting CZF. The amount of vesting CZF is equal to the value of the LP in CZF plus interest. 
-                </p>
+          <div id="farm" className="jumpMarker" />
+          <h2> Farm 2.0 </h2>
+          <StaticImage className="image" src="../images/slider.jpg" alt="czfarm" />
+          
+          
+          <div class="center">
+            <div class="traineeship">
+              <div class="process-row">
+                <div class="activity animate-from-bottom__0">
+                  <div class="relative-block">
+                    <div class="activity-icon">
+                      <img alt="An image" src="https://i.ibb.co/ZWp3Yts/ad-operations-process-strategy.png"/>
+                    </div>
+                    <div class="inactive">
+                      <div class="title">Stim Farms </div>
+                    </div>
+                    <div class="active">
+                      <div class="title">Stim Farms</div>
+                      <div class="sub-title">
+                      Users deposit Liquidity (LP) tokens into Stim Farms during a 24 hour window. After the window expires, rewards vest for 1 week. At the end of the week, CZF is distributed to the depositors equal to the value of the LP plus a high APR.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="activity animate-from-bottom__1">
+                  <div class="relative-block">
+                    <div class="activity-icon">
+                      <img alt="An image" src="https://i.ibb.co/s2nghrT/ad-operations-process-strategy-activation.png" alt="ad-operations-process-strategy-activation"/>
+                    </div>
+                    <div class="inactive">
+                      <div class="title">Exotic Farms </div>
+                    </div>
+                    <div class="active">
+                      <div class="title">Mobile App Development</div>
+                      <div class="sub-title">
+                        Burn CZF to earn rewards each block for the vesting period. Rewards can be fast forwarded from the future at a discount. APR is set at a base level until enough deposits are collected at which point the APR begins to fall.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="activity animate-from-bottom__2">
+                  <div class="relative-block">
+                    <div class="activity-icon">
+                      <img alt="An image" src="https://i.ibb.co/ZWp3Yts/ad-operations-process-strategy.png"/>
+                    </div>
+                    <div class="inactive">
+                      <div class="title">Chrono Pools</div>
+                    </div>
+                    <div class="active">
+                      <div class="title">WordPress</div>
+                      <div class="sub-title">
+                        Exotic Farms are a Defi 2.0 farming system that protects depositors from Impermanent Loss while providing high APR. Deliver liquidity tokens (LP) to earn vesting CZF. The amount of vesting CZF is equal to the value of the LP in CZF plus interest. 
+                      </div>
+                    </div>
+                  </div>
+                </div>   
               </div>
             </div>
           </div>
+
         </div>
 
+       
 
         <div class="ourteam">
           <div id="OurTeam" className="jumpMarker" />
