@@ -7,7 +7,6 @@ import { Helmet } from "react-helmet"
 import Particles from "react-particles-js"
 
 
-
 const particlesParams = {
   particles: {
     number: {
