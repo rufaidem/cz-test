@@ -6,6 +6,28 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
 import Particles from "react-particles-js"
 
+if (typeof window !== `undefined`) { // or typeof document !== 'undefined'
+  // your code that uses global objects here
+  const cards = document.querySelectorAll(".box");
+
+  cards.forEach((card) => {
+    card.addEventListener("mousemove", (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / card.clientWidth) * 100;
+      const y = ((e.clientY - rect.top) / card.clientHeight) * 100;
+
+    card.style.background = `radial-gradient(circle closest-corner
+      at ${x}% ${y}%,
+      var(--ripple-color), var(--bg-color))`;
+    });
+
+    card.addEventListener("mouseleave", (event) => {
+      card.style.removeProperty("background");
+    });
+  });
+}
+
+
 
 const particlesParams = {
   particles: {
@@ -189,13 +211,11 @@ const IndexPage = () => {
           <h2> Protocol Owned Liquidity </h2>
 
           <div class="box-container">
-            <div class="box">
-               
+            <div class="box">               
                 <h3>protects depositors from Impermanent Loss by using Liquidity.</h3>
                 <p></p>
             </div>
-            <div class="box">
-               
+            <div class="box">   
               <h3>The protocol itself own the LP tokens, not the user or creator.</h3>
               <p></p>
             </div>
