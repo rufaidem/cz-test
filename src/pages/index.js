@@ -1,7 +1,7 @@
 import * as React from "react"
 import { useEffect, useState } from "react";
 import "../css/index.css";
-import "../js/added.js";
+
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
 import Particles from "react-particles-js"
