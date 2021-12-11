@@ -658,17 +658,17 @@ img {
 
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap');
 
-.feature {
+.farm {
 	text-align: center!important;
 	justify-content: center!important;
 	max-width: 968px;
 	margin-left: auto;
 	margin-right: auto;
 }
-.feature .whiteline {
+.farm .whiteline {
   width: 40%;
 }
-.feature h2 {
+.farm h2 {
     margin-bottom: 1.5rem;
     color: #fff;
     text-align: center;
@@ -913,14 +913,14 @@ img {
 
 
 
-/* pol starts  */
+/* feature starts  */
 
-.pol {
+.feature {
 	box-sizing: border-box;
 	color: #eee;
 	font-family: "Poppins", sans-serif;
 }
-.pol h2 {
+.feature h2 {
     color: #fff;
     text-align: center;
     font-size: 4rem;
@@ -930,7 +930,13 @@ img {
     margin-right: auto;
     line-height: 1.2;
     font-family: Raleway,Arial,Helvetica,sans-serif;
-	
+}
+
+.feature h3 {
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+  font-family: Raleway,Arial,Helvetica,sans-serif;
 }
 
 :root {
@@ -938,21 +944,22 @@ img {
 	--border-color: rgba(37, 37, 39, 0.5);
 	--ripple-color: rgb(167, 157, 241);
 	--bg-body: rgb(25, 25, 27);
-  }
+}
  
-	.pol .box-container {
+.feature .box-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	max-width: 100%;
+	max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
 	gap: 1rem;
-	margin-top: 10rem;
-	
-  }
+	margin-top: 5rem;
+}
   
  
-  .pol .box {
+.feature .box {
 	width: 300px;
 	border: 1px solid var(--border-color);
 	padding: 2rem;
@@ -965,20 +972,51 @@ img {
 	  font-size: 1.2rem;
 	  padding-top: 0.5rem;
 	}
-	p {
-	  font-size: 13px;
-	  color: #eee;
-	  opacity: 0.6;
-	}
-	.img,
-	img {
-	  color: #fff;
-	  fill: #fff;
-	  border-color: #fff;
-	  transform: scale(1.2);
-	}
+ 
+}
+
+.bar{
+  display:block;
+  height: 5px;
+  width: 10rem;
+  background: #fff;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+  .bar:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background: #000;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: MOVE-BG;
+  animation-name: MOVE-BG;
   }
   
+  @keyframes MOVE-BG{
+  0% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  100% {
+  -webkit-transform: translateX(9rem);
+  transform: translateX(9rem);
+  }
+  }
 
 /* 3 row card ends  */
 
@@ -1114,7 +1152,7 @@ img {
   .content .item h1 {
     font-size: 3rem;
   }
-  .pol h2 {
+  .feature h2 {
     font-size: 3rem;
   }
 }
