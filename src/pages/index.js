@@ -207,30 +207,62 @@ const IndexPage = () => {
           <br/><br/>
         </div>
 
-        <div class="pol">
+        <div class="feature">
         <div id="pools" className="jumpMarker" />
-          <h2> Protocol Owned Liquidity </h2>
+          <h2> Features </h2>
+          <span class="bar"></span>
 
           <div class="box-container">
-            <div class="box">               
-                <h3>protects depositors from Impermanent Loss by using Liquidity.</h3>
-                <p></p>
+
+            <div class="box">                       
+                <a href="#"><h3>Exotic Farms</h3> </a>
             </div>
+
             <div class="box">   
-              <h3>The protocol itself own the LP tokens, not the user or creator.</h3>
-              <p></p>
+                 
+              <a href="#"> <h3>Chrono Pools</h3>   </a>  
             </div>
-            <div class="box">
+
+            <div class="box">     
+                
+              <a href="#"> <h3>Stim Farms</h3>  </a>   
+            </div>
+
+            <div class="box">               
+               
+              <a href="#"><h3>Antidump Vaults</h3>  </a>      
+            </div>
+
+            <div class="box">   
               
-              <h3>providing high APR without loosing its value .</h3>
-              <p></p>
+              <a href="#"><h3>Farms v1</h3> </a>
             </div>
+
+            <div class="box">   
+               
+              <a href="#"> <h3>Pools v1</h3> </a>
+            </div>
+
+            <div class="box">   
+              
+              <a href="#"><h3>Exempt Borrow</h3> </a>
+            </div>
+
+            <div class="box">   
+             
+              <a href="#"> <h3>Scorch Peg</h3>   </a>
+            </div>
+
+            <div class="box">   
+              
+              <a href="#"> <h3>Czodiac Nft</h3></a>
+            </div>
+
           </div>
 
         </div>
         
-
-        <div class="feature">
+        <div class="farm">
           <div id="farm" className="jumpMarker" />
           <h2> Farm 2.0 </h2>
           <StaticImage className="image" src="../images/slider.jpg" alt="czfarm" />
@@ -293,8 +325,6 @@ const IndexPage = () => {
 
         </div>
 
-       
-
         <div class="ourteam">
           <div id="OurTeam" className="jumpMarker" />
           <h2> Our Team</h2>
@@ -339,7 +369,7 @@ const IndexPage = () => {
         </div>
 
         <div class="partner">
-          <div id="OurTeam" className="jumpMarker" />
+          <div id="partner" className="jumpMarker" />
           <h2> Our Partners</h2>
           <div class="paragraph--type--card-narrow-row">
         	  <div class="card-narrow">
