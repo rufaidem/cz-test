@@ -986,7 +986,7 @@ img {
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 .content .ourteam {
-	margin-bottom: 100px;
+
 	max-width:968px;
 	margin-left:auto;
 	margin-right:auto;
@@ -1089,12 +1089,13 @@ img {
 }
 .partner .card-narrow-image img {
   max-width:100%;
-  filter: grayscale(100%);
+  filter:none;
   transition: all 0.3s;
 }
 
 .partner .card-narrow:hover img{
-  filter:none;
+
+  filter: grayscale(100%);
 }
 
 .partner .card-narrow p {
