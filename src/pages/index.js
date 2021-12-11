@@ -148,8 +148,8 @@ const IndexPage = () => {
           <header class="header" id="header">
             <nav class="nav container">
               <div class="nav_logo">
-                <a href="#" >                  
-                  <StaticImage src="../images/logo2.png" class="logo" className="logo" alt="czodiac logo" />  
+                <a href="#">                  
+                  <StaticImage src="../images/logo2.png" class="logo" className="logo" alt="czodiac logo"/>  
                 </a>
               </div>                                                         
               <div class="nav__menu" id="nav-menu">
@@ -168,7 +168,7 @@ const IndexPage = () => {
                     </a>
                   </li>
                   <li class="nav__item">
-                    <a href="#Czfarm" onClick={()=>setIsMenuOpen(false)} class="nav__link">                       
+                    <a href="#pools" onClick={()=>setIsMenuOpen(false)} class="nav__link">                       
                     <i class="fas fa-coins nav__icon"></i>
                       <span class="nav__name">cztoken</span>
                     </a>
@@ -187,7 +187,7 @@ const IndexPage = () => {
           </header>
       <div className="content">
 
-        <div className="item">
+        <div className="item ">
           <div id="home" className="jumpMarker" />
           <h1 > A next generation Defi 2.0 Technologies on BSC Network</h1>
           <br/>
@@ -208,6 +208,7 @@ const IndexPage = () => {
         </div>
 
         <div class="pol">
+        <div id="pools" className="jumpMarker" />
           <h2> Protocol Owned Liquidity </h2>
 
           <div class="box-container">
@@ -336,6 +337,123 @@ const IndexPage = () => {
 	          </div>
           </div>
         </div>
+
+        <div class="partner">
+          <div id="OurTeam" className="jumpMarker" />
+          <h2> Our Partners</h2>
+          <div class="paragraph--type--card-narrow-row">
+        	  <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="ample-swap" src="https://i.ibb.co/sFjNpmN/ample-swap.png" />
+              </div>              
+            </div>
+
+	          <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+                <img alt="auto-shark" src="https://i.ibb.co/k3YR5Tf/auto-shark.png" />
+              </div>              
+            </div>
+
+	          <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="baby swap" src="https://i.ibb.co/ZGSGWXJ/babyswap.png" />
+              </div>              
+	          </div>
+
+          	<div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="beefy finance" src="https://i.ibb.co/bbPmXfN/beefy-finance.png" />
+              </div>  
+	          </div>
+
+            <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="berry data" src="https://i.ibb.co/jJcSpv6/berry-data.png" />
+              </div>  
+	          </div>
+
+            <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="caffes swap" src="https://i.ibb.co/3dwYfVL/caffes-swap.png" />
+              </div>             
+	          </div>
+            
+            <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="coin wind" src="https://i.ibb.co/kcpbT5P/coin-wind.png" />
+              </div>             
+	          </div>
+
+            <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="framagedon" src="https://i.ibb.co/xhf5r0Y/farmagedon.png" />
+              </div>  
+	          </div>
+
+          
+        	  <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="game one network" src="https://i.ibb.co/DWNtKxN/Game1-Network.png" />
+              </div>              
+            </div>
+
+	          <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+                <img alt="gifted hands" src="https://i.ibb.co/B4k05vw/Gifted-Hands.png" />
+              </div>              
+            </div>
+
+	          <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="guitar swap" src="https://i.ibb.co/85N9ztg/Guitar-Swap.png" />
+              </div>              
+	          </div>
+
+          	<div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="infinity one" src="https://i.ibb.co/dcWgB1w/infinity-one.png" />
+              </div>  
+	          </div>
+
+            <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="latteswap" src="https://i.ibb.co/7Kx0d8b/latteswap.png" />
+              </div>  
+	          </div>
+
+            <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="main street" src="https://i.ibb.co/M8949zS/Picture1.png" />
+              </div>             
+	          </div>
+            
+            <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="nft mall" src="https://i.ibb.co/mX5Dnq7/nftmall.png" />
+              </div>             
+	          </div>
+
+            <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="polkarhino" src="https://i.ibb.co/p3SgdTZ/polkarhino.png" />
+              </div>  
+	          </div>
+            
+            
+            <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="singular" src="https://i.ibb.co/RSnpMzZ/Picture3.png" />
+              </div>  
+	          </div>
+            
+            <div class="card-narrow">
+	   	        <div class="card-narrow-image">
+               <img alt="treassurland" src="https://i.ibb.co/1QLfMsT/Picture2.png" />
+              </div>  
+	          </div>
+
+          </div>
+        </div>
         
 
         <footer className="social">          
@@ -377,8 +495,6 @@ const IndexPage = () => {
           <meta property="og:url" content="https://czodiac.com" />
           <meta name="twitter:card" content="../images/image6.jpg" />
           <script src="https://kit.fontawesome.com/01310ff41a.js" crossorigin="anonymous"></script>
- 
-         
           <script src="https://bootstrapcreative.com/wp-bc/wp-content/themes/wp-bootstrap/codepen/bootstrapcreative.js?v=11"></script>
         </Helmet>
       </div>
