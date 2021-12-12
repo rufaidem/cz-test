@@ -168,7 +168,7 @@ const IndexPage = () => {
                     </a>
                   </li>
                   <li class="nav__item">
-                    <a href="#pools" onClick={()=>setIsMenuOpen(false)} class="nav__link">                       
+                    <a href="#cztoken" onClick={()=>setIsMenuOpen(false)} class="nav__link">                       
                     <i class="fas fa-coins nav__icon"></i>
                       <span class="nav__name">cztoken</span>
                     </a>
@@ -202,13 +202,13 @@ const IndexPage = () => {
 
           <div className="btn-redirect">
             <div className="btn"><a className="one" target="_blank" href="https://czodiac.gitbook.io/czodiac-litepapper/"><b>Whitepaper</b></a></div>
-            <div className="btn"><a className="two" href="http://app.czodiac.com"><b>launch app</b></a></div>
+            <div className="btn"><a className="two" target="_blank" href="http://app.czodiac.com"><b>launch app</b></a></div>
           </div>
           <br/><br/>
         </div>
 
         <div class="feature">
-        <div id="pools" className="jumpMarker" />
+        <div id="feature" className="jumpMarker" />
           <h2> Features </h2>
           <span class="bar"></span>
 
@@ -374,111 +374,147 @@ const IndexPage = () => {
           <div class="paragraph--type--card-narrow-row">
         	  <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="ample-swap" src="https://i.ibb.co/sFjNpmN/ample-swap.png" />
+                <a target="_blank" href="https://ampleswap.com/">
+                  <img alt="ample-swap" src="https://i.ibb.co/sFjNpmN/ample-swap.png" />
+                </a> 
               </div>              
             </div>
 
 	          <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-                <img alt="auto-shark" src="https://i.ibb.co/k3YR5Tf/auto-shark.png" />
-              </div>              
+                <a target="_blank" href="https://autoshark.finance/">
+                  <img alt="auto-shark" src="https://i.ibb.co/k3YR5Tf/auto-shark.png" />              
+                </a>
+             </div>              
             </div>
 
 	          <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="baby swap" src="https://i.ibb.co/ZGSGWXJ/babyswap.png" />
+                <a target="_blank" href="https://home.babyswap.finance/">
+                  <img alt="baby swap" src="https://i.ibb.co/ZGSGWXJ/babyswap.png" /> 
+                </a>
               </div>              
 	          </div>
 
           	<div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="beefy finance" src="https://i.ibb.co/bbPmXfN/beefy-finance.png" />
+                <a target="_blank" href="https://www.beefy.finance/">
+                  <img alt="beefy finance" src="https://i.ibb.co/bbPmXfN/beefy-finance.png" />
+                </a>             
               </div>  
 	          </div>
 
             <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="berry data" src="https://i.ibb.co/jJcSpv6/berry-data.png" />
+                <a target="_blank" href="https://berrydata.co/">
+                  <img alt="berry data" src="https://i.ibb.co/jJcSpv6/berry-data.png" />
+                </a>               
               </div>  
 	          </div>
 
             <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="caffes swap" src="https://i.ibb.co/3dwYfVL/caffes-swap.png" />
+                <a target="_blank" href="https://cafeswap.finance/">
+                  <img alt="caffes swap" src="https://i.ibb.co/3dwYfVL/caffes-swap.png" />
+                </a>               
               </div>             
 	          </div>
             
             <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="coin wind" src="https://i.ibb.co/kcpbT5P/coin-wind.png" />
+                <a target="_blank" href="https://www.coinwind.com/">
+                  <img alt="coin wind" src="https://i.ibb.co/kcpbT5P/coin-wind.png" />
+                </a>               
               </div>             
 	          </div>
 
             <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="framagedon" src="https://i.ibb.co/xhf5r0Y/farmagedon.png" />
+              <a target="_blank" href="https://farmageddon.farm/">
+                <img alt="framagedon" src="https://i.ibb.co/xhf5r0Y/farmagedon.png" />
+              </a>               
               </div>  
 	          </div>
 
           
         	  <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="game one network" src="https://i.ibb.co/DWNtKxN/Game1-Network.png" />
+                <a target="_blank" href="https://game1network.com/">
+                 <img alt="game one network" src="https://i.ibb.co/DWNtKxN/Game1-Network.png" />  
+                </a>               
               </div>              
             </div>
 
 	          <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-                <img alt="gifted hands" src="https://i.ibb.co/B4k05vw/Gifted-Hands.png" />
+                <a target="_blank" href="https://www.giftedhands.io/">
+                  <img alt="gifted hands" src="https://i.ibb.co/B4k05vw/Gifted-Hands.png" />
+                </a>                
               </div>              
             </div>
 
 	          <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="guitar swap" src="https://i.ibb.co/85N9ztg/Guitar-Swap.png" />
+                <a target="_blank" href="https://guitarswap.exchange/">
+                  <img alt="guitar swap" src="https://i.ibb.co/85N9ztg/Guitar-Swap.png" />
+                </a>             
               </div>              
 	          </div>
 
           	<div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="infinity one" src="https://i.ibb.co/dcWgB1w/infinity-one.png" />
+                <a target="_blank" href="https://www.infinitytoken.io/">
+                  <img alt="infinity one" src="https://i.ibb.co/dcWgB1w/infinity-one.png" />
+                </a>               
               </div>  
 	          </div>
 
             <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="latteswap" src="https://i.ibb.co/7Kx0d8b/latteswap.png" />
+                <a target="_blank" href="https://app.latteswap.com/">
+                  <img alt="latteswap" src="https://i.ibb.co/7Kx0d8b/latteswap.png" />
+                </a>               
               </div>  
 	          </div>
 
             <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="main street" src="https://i.ibb.co/M8949zS/Picture1.png" />
+                <a target="_blank" href="https://www.buymainstreet.com/"> 
+                  <img alt="main street" src="https://i.ibb.co/M8949zS/Picture1.png" />
+                </a>               
               </div>             
 	          </div>
             
             <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="nft mall" src="https://i.ibb.co/mX5Dnq7/nftmall.png" />
+               <a target="_blank" href="https://www.nftmall.io/">
+                 <img alt="nft mall" src="https://i.ibb.co/mX5Dnq7/nftmall.png" />
+               </a>             
               </div>             
 	          </div>
 
             <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="polkarhino" src="https://i.ibb.co/p3SgdTZ/polkarhino.png" />
+                <a target="_blank" href="https://rhinobsc.com/">
+                  <img alt="polkarhino" src="https://i.ibb.co/p3SgdTZ/polkarhino.png" />
+                </a>               
               </div>  
 	          </div>
             
             
             <div class="card-narrow">
 	   	        <div class="card-narrow-image">
-               <img alt="singular" src="https://i.ibb.co/RSnpMzZ/Picture3.png" />
+               <a target="_blank" href="https://singular.farm/"> 
+                <img alt="singular" src="https://i.ibb.co/RSnpMzZ/Picture3.png" />
+               </a>               
               </div>  
 	          </div>
             
             <div class="card-narrow">
-	   	        <div class="card-narrow-image">
-               <img alt="treassurland" src="https://i.ibb.co/1QLfMsT/Picture2.png" />
+	   	        <div class="card-narrow-image">             
+               <a target="_blank" href="https://treasureland.market/">
+                 <img alt="treassurland" src="https://i.ibb.co/1QLfMsT/Picture2.png" />
+               </a>
               </div>  
 	          </div>
 
