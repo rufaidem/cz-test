@@ -283,11 +283,6 @@ ul.contracts li a{
   height: 10rem;
 }
 
-.item ul{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 968px;
-}
 
 /*===== updated parts=====*/
 
@@ -913,7 +908,7 @@ img {
 
 
 
-/* feature starts  */
+/*== feature starts  ==*/
 
 .feature {
 	box-sizing: border-box;
@@ -1018,9 +1013,57 @@ img {
   }
   }
 
-/* 3 row card ends  */
+  /* feature-pop-text container */
+.feature-pop-text {
+  position: relative;
+  left: 0;
+  right: 0;
 
-/* team section starts*/
+}
+
+/* feature-pop-text text */
+.feature-pop-text .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 0.9rem;
+  border-radius: 6px;
+
+  /* Position the feature-pop-text text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: auto;
+  margin-left: auto;
+
+  /* Fade in feature-pop-text */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* feature-pop-text arrow */
+.feature-pop-text .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the feature-pop-text text when you mouse over the feature-pop-text container */
+.feature-pop-text:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*== feature card ends  ==*/
+
+/*== team section starts ==*/
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 .content .ourteam {
@@ -1083,6 +1126,101 @@ img {
  
 
 /* team section ends*/
+
+/* cztoken section starts*/
+
+.cztoken {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 968px;
+}
+.cztoken .content-head {
+  text-align: center;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 968px;
+  line-height: 1.5;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  pointer-events: none;
+}
+.cztoken .content-head .head-title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: proxima nova th;
+  font-size: 3.438rem;
+  font-weight: 700;
+  color: #e4f3ff;
+  background: -webkit-linear-gradient(top,#ffffff 0%,#7a8b99 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 1.1rem;
+  
+}
+
+.cztoken .content-head .decs {
+  font-size: 1.25rem;
+  color: #f1f1f1;
+  padding: 0 15px;
+
+}
+.cztoken .content-coin {
+  position: relative;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  z-index: 2;
+}
+.cztoken .content-coin .coin-box {
+  text-align: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .cztoken .content-coin {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    z-index: 2;
+  }
+  .box-middle {
+    text-align: center;
+    justify-content: center;
+  }
+  .box-last {
+    text-align: right;
+    justify-content: right;
+  }
+  .cztoken .content-coin .coin-box {
+    width: 33.3%;
+  }
+}
+
+/* cztoken section ends*/
 
 /* partners starts here */
 
