@@ -214,48 +214,90 @@ const IndexPage = () => {
 
           <div class="box-container">
 
-            <div class="box">                       
-                <a href="#"><h3>Exotic Farms</h3> </a>
+            <div class="box">
+
+              <div class="feature-pop-text">
+              <h3>Exotic Farms</h3>
+                <span class="tooltiptext">
+                Deliver LP and earn vesting CZF every second with no Impermanent Loss (IL). Delivered LP is transferred to the protocol's treasury, creating a rising price floor.                
+                </span>
+              </div>
+              
             </div>
 
             <div class="box">   
-                 
-              <a href="#"> <h3>Chrono Pools</h3>   </a>  
+              <div class="feature-pop-text">
+                <h3>Chrono Pools</h3> 
+                <span class="tooltiptext">
+                Defi v2 style pools with per block vesting. Users stake CZF to earn other tokens each block. Fast Forward delivers rewards from the future into the present at a discount.
+                </span>
+              </div>
             </div>
 
             <div class="box">     
-                
-              <a href="#"> <h3>Stim Farms</h3>  </a>   
+              <div class="feature-pop-text">
+                <h3>Stim Farms</h3>
+                <span class="tooltiptext">
+                Defi v2 style farms inspired by Olympus Dao (OHM). Users deliver LP tokens to the protocol in exchange for high APY and their deposit returned as CZF after 1 week. Purges toxic LP from v1 farms and provides higher quality liquidity.
+                </span>
+              </div>
+              
             </div>
 
             <div class="box">               
-               
-              <a href="#"><h3>Antidump Vaults</h3>  </a>      
+              <div class="feature-pop-text">
+                <h3>Antidump Vaults</h3>
+                <span class="tooltiptext">
+                Single asset vaults which earn high APY without selling any tokens. Vault depositers can earn APY on the base asset (such as BNB) with CZF on top. The protocol tokens earned are packed into Pools.
+                </span>
+              </div>   
             </div>
 
             <div class="box">   
-              
-              <a href="#"><h3>Farms v1</h3> </a>
+              <div class="feature-pop-text">
+                <h3>Farms v1</h3>
+                <span class="tooltiptext">
+                Farms which increase CZF liquidity while simultaneously locking CZF. All farms are against CZF pairs meaning farmers are rewarded with high APR for supporting CZF instead of dumping.
+                </span>
+              </div> 
+
             </div>
 
             <div class="box">   
-               
-              <a href="#"> <h3>Pools v1</h3> </a>
+              <div class="feature-pop-text">
+                <h3>Pools v1</h3>
+                <span class="tooltiptext">
+                Tokens collected from dapps and partners are then distributed to CZF stakers via pools with high APR.
+                </span>
+              </div> 
+
             </div>
 
             <div class="box">   
-              
-              <a href="#"><h3>Exempt Borrow</h3> </a>
+              <div class="feature-pop-text">
+                <h3>Exempt Borrow</h3>
+                <span class="tooltiptext">
+                  Deposit CZF to borrow up to 75% of the value in CZUSD. All borrows are exempt from interest and liquidation. Users can leverage their CZF to gain increased price exposure without the risk of losing their underlying capital.
+                </span>
+              </div> 
             </div>
 
             <div class="box">   
-             
-              <a href="#"> <h3>Scorch Peg</h3>   </a>
+              <div class="feature-pop-text">
+                <h3>Scorch Peg</h3>
+                <span class="tooltiptext">
+                Automatically pegs CZUSD to $1 by burning CZF. The peg deposits trading profits from holding the peg into vaults to earn interest. This interest is then used to burn CZF, reducing supply.
+                </span>
+              </div> 
             </div>
 
             <div class="box">   
-              
-              <a href="#"> <h3>Czodiac Nft</h3></a>
+              <div class="feature-pop-text">
+                <h3>Catalytic Development</h3>
+                <span class="tooltiptext">
+                CZodiac community members building products receive a salary directly tied to the value of CZF. These development incentives catalyze products that increase the value of CZF.
+                </span>
+              </div> 
             </div>
 
           </div>
@@ -323,6 +365,45 @@ const IndexPage = () => {
             </div>
           </div>
 
+        </div>
+
+        <div class="cztoken">
+          <div id="cztoken" className="jumpMarker" />
+          <div class="content-head">
+
+            <div class="head-title">
+              WHAT'S CZfarm COIN? 
+            </div>
+
+            <div class="head-decs">
+              CZF is the protocol token for CZodiac. <br/>
+              It is an inflationary token whose supply is set by a balance between minting and burning.
+            </div>
+             
+          </div>
+
+          <div class="content-coin">
+
+            <div class="coin-box box-first">
+              aa bb cc
+            </div>
+            <div class="coin-box box-middle">
+              aa bb cc
+            </div>
+            <div class="coin-box box-last">
+              <div class="coin-list-item">
+                aa1
+              </div>
+              <div class="coin-list-item">
+                bb1
+              </div>
+              <div class="coin-list-item">
+                cc1
+              </div>
+              
+            </div>
+
+          </div>
         </div>
 
         <div class="ourteam">
@@ -562,6 +643,7 @@ const IndexPage = () => {
           <meta name="twitter:card" content="../images/image6.jpg" />
           <script src="https://kit.fontawesome.com/01310ff41a.js" crossorigin="anonymous"></script>
           <script src="https://bootstrapcreative.com/wp-bc/wp-content/themes/wp-bootstrap/codepen/bootstrapcreative.js?v=11"></script>
+          
         </Helmet>
       </div>
     </div>
