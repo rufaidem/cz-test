@@ -275,7 +275,7 @@ const IndexPage = () => {
           <div class="timeline">
             <div class="outer">
               <div class="card">
-                <div class="info first">
+                <div class="info">
                   <h3 class="title"></h3>
                   <p>
                     <h4>Treasury Revenue</h4>
@@ -285,7 +285,7 @@ const IndexPage = () => {
                 </div>
               </div>
               <div class="card">
-                <div class="info second">
+                <div class="info">
                   <h3 class="title"> </h3>
                   <p>
                     <h4>  Protocol Owned Liquidity</h4>
@@ -295,7 +295,7 @@ const IndexPage = () => {
                 </div>
               </div>
               <div class="card">
-                <div class="info third">
+                <div class="info">
                   <h3 class="title"></h3>
                   <p>
                     <h4>Rising price floor protocol </h4>
