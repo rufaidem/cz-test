@@ -1235,41 +1235,37 @@ img {
     justify-content: center;
   }
    
-  .xxxxx .timeline {
+/* Timeline Container */
+.xxxxx .timeline {
     background: var(--primary-color);
     margin: 20px auto;
     padding: 20px;
-    justify-content: center;
-  }
-  .xxxxx .outer {
-    
-    justify-content: center;
   }
   
-   
+  /* Card container */
   .xxxxx .card {
     position: relative;
-    max-width: 35em;
+    max-width: 800px;
     margin-left:auto;
-      margin-right:auto;
+    margin-right:auto;
   }
   
-   
+  /* setting padding based on even or odd */
   .xxxxx .card:nth-child(odd) {
-    padding: 30px 0 30px 30px;
+    padding: 3rem 0 3rem 3rem;
   }
   .xxxxx .card:nth-child(even) {
-    padding: 30px 30px 30px 0;
+    padding: 3rem 3rem 3rem 0;
   }
-   
+  /* Global ::before */
   .xxxxx .card::before {
     content: "";
     position: absolute;
     width: 50%;
-    border: solid white;
+    border: solid orangered;
   }
   
-   
+  /* Setting the border of top, bottom, left */
   .xxxxx .card:nth-child(odd)::before {
     left: 0px;
     top: -4.5px;
@@ -1278,7 +1274,7 @@ img {
     border-radius: 50px 0 0 50px;
   }
   
-   
+  /* Setting the top and bottom to "-5px" because earlier it was out of a pixel in mobile devices */
   @media only screen and (max-width: 400px) {
     .xxxxx .card:nth-child(odd)::before {
       top: -5px;
@@ -1286,7 +1282,7 @@ img {
     }
   }
   
-   
+  /* Setting the border of top, bottom, right */
   .xxxxx .card:nth-child(even)::before {
     right: 0;
     top: 0;
@@ -1295,103 +1291,66 @@ img {
     border-radius: 0 50px 50px 0;
   }
   
-   
+  /* Removing the border if it is the first card */
   .xxxxx .card:first-child::before {
     border-top: 0;
     border-top-left-radius: 0;
   }
   
-   
+  /* Removing the border if it is the last card  and it's odd */
   .xxxxx .card:last-child:nth-child(odd)::before {
     border-bottom: 0;
     border-bottom-left-radius: 0;
   }
   
-   
+  /* Removing the border if it is the last card  and it's even */
   .xxxxx .card:last-child:nth-child(even)::before {
     border-bottom: 0;
     border-bottom-right-radius: 0;
   }
   
-   
+  /* Information about the timeline */
   .xxxxx .info {
     display: flex;
     flex-direction: column;
-    
+    background: #333;
     color: gray;
     border-radius: 10px;
     padding: 10px;
   }
-  .xxxxx .info p{
-    margin-left: 10rem;
-    padding: 5px;
-    font-family: 'Red Hat Text',sans-serif;
-    line-height: 1.7;
-  }
-  .xxxxx .info p h2{
-     font-size: 2rem;
-    margin-bottom: 0.5em;
-  }
   
-   
+  /* Title of the card */
   .xxxxx .title {
-    color: white;
+    color: orangered;
     position: relative;
   }
   
-   
-  .xxxxx .first .title::before,.xxxxx .third .title::before {
-    margin-left: -2.5em;
+  /* Timeline dot  */
+  .xxxxx .title::before {
     content: "";
-    
-    background-size: 100%;
-    background-repeat: no-repeat;
-     
-    
-    width: 100px;
-    height: 100px;
-     
-  }
-  .xxxxx .third .title::before {
-    background-image: url("../images/bsc.png");
-  }
-  .xxxxx .first .title::before {
-    background-image: url("../images/czf-3d.png");
-  }
-  
-  .xxxxx .second .title::before {
-    margin-right: -2.5em;
-    content: "";
-    padding: ;
-    background-image: url("../images/bank.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
     position: absolute;
-    
-    width: 200px;
-    height: 200px;
-  }
-  .xxxxx .second p {
-    margin-left: 0rem;
-    margin-right: 10rem;
-    line-height: 1.7;
-    font-family: 'Red Hat Text',sans-serif;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    border: 3px solid orangered;
   }
   
-   
+  /* text right if the card is even  */
   .xxxxx .card:nth-child(even) > .info > .title {
     text-align: right;
   }
   
-   
+  /* setting dot to the left if the card is odd */
   .xxxxx .card:nth-child(odd) > .info > .title::before {
     left: -45px;
   }
   
-   
+  /* setting dot to the right if the card is odd */
   .xxxxx .card:nth-child(even) > .info > .title::before {
     right: -45px;
-  } 
+  }
+  
   
   /*=== timeline ends here */
 
