@@ -272,25 +272,26 @@ const IndexPage = () => {
 
         <div class="xxxxx">
           <div id="xxxxx" className="jumpMarker" />
+          <h2> How Rising Price Floor works </h2>
           <div class="timeline">
             <div class="outer">
               <div class="card">
                 <div class="info">
                   <h3 class="title"></h3>
                   <p>
-                    <h4>Treasury Revenue</h4>
-                    <h2> LP from Farm 2.0</h2>
+                    <h4><span>1 </span> Treasury Revenue</h4>
+                    <h3> LP from Farm 2.0</h3>
                     Liquidity collected from farm 2.0 such as exotic farm, stim farm will be transfered to czodiac Treasure.
                   </p>
                 </div>
               </div>
               <div class="card">
-                <div class="info">
+                <div class="info mid">
                   <h3 class="title"> </h3>
                   <p>
-                    <h4>  Protocol Owned Liquidity</h4>
-                    <h2> czodiac Treasury</h2>
-                    Treasury inflow is used to increase Treasury Balance and back outstanding OHM tokens and regulate staking APY
+                    <h4> <span>2 </span>  Protocol Owned Liquidity</h4>
+                    <h3> czodiac Treasury</h3>
+                    Treasury inflow is saved as Protocol Owned Liquidity by tying LP to protocol and operated by Dao .
                   </p>
                 </div>
               </div>
@@ -298,9 +299,9 @@ const IndexPage = () => {
                 <div class="info">
                   <h3 class="title"></h3>
                   <p>
-                    <h4>Rising price floor protocol </h4>
-                    <h2>protect from Impermanent Loss</h2>
-                      Compounds yields automatically through a treasury backed currency with intrinsic value
+                    <h4><span>3 </span> Rising price floor protocol </h4>
+                    <h3>cz farm</h3>
+                      users get high APR with out having Impermanent loss. .
                   </p>
                 </div>
               </div>
@@ -313,7 +314,7 @@ const IndexPage = () => {
           <div id="cztoken" className="jumpMarker" />
           
           <div class="czfarm">
-            <div id="czfarm" className="jumpMarker" />
+            <div id="czfarm" />
 
             <div class="content-head">
               <div class="head-title">
@@ -409,7 +410,7 @@ const IndexPage = () => {
                       technology
                     </div>
                     <div class="body">
-                      earn rewards for farming and staking
+                      stable token
                     </div>     
                     <div class="bsc">
                       <StaticImage class="logo-bsc" src="../images/bsc.png" alt="BscScan" />
