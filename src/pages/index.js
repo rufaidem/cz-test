@@ -207,6 +207,256 @@ const IndexPage = () => {
           <br/><br/>
         </div>
 
+        <div class="farm">
+          <div id="farm" className="jumpMarker" />
+          <h2> Farm 2.0 </h2>
+          <StaticImage className="image" src="../images/slider.jpg" alt="czfarm" />
+          
+          
+          <div class="center">
+            <div class="traineeship">
+              <div class="process-row">
+                <div class="activity animate-from-bottom__0">
+                  <div class="relative-block">
+                    <div class="activity-icon">
+                      <img class="whiteline" alt="An image" src="https://i.ibb.co/s3znYkF/Picture4.png"/>
+                    </div>
+                    <div class="inactive">
+                      <div class="title">Stim Farms </div>
+                    </div>
+                    <div class="active">
+                      <div class="title">Stim Farms</div>
+                      <div class="sub-title">
+                      Users deposit Liquidity (LP) tokens into Stim Farms during a 24 hour window. After the window expires, rewards vest for 1 week. At the end of the week, CZF is distributed to the depositors equal to the value of the LP plus a high APR.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="activity animate-from-bottom__1">
+                  <div class="relative-block">
+                    <div class="activity-icon">
+                      <img class="whiteline" alt="An image" src="https://i.ibb.co/89r2n9x/Picture2.png" alt="ad-operations-process-strategy-activation"/>
+                    </div>
+                    <div class="inactive">
+                      <div class="title">Exotic Farms </div>
+                    </div>
+                    <div class="active">
+                      <div class="title">Exotic Farms</div>
+                      <div class="sub-title">
+                        Burn CZF to earn rewards each block for the vesting period. Rewards can be fast forwarded from the future at a discount. APR is set at a base level until enough deposits are collected at which point the APR begins to fall.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="activity animate-from-bottom__2">
+                  <div class="relative-block">
+                    <div class="activity-icon">
+                      <img class="whiteline" alt="An image" src="https://i.ibb.co/JqZQxPB/Picture3.png"/>
+                    </div>
+                    <div class="inactive">
+                      <div class="title">Chrono Pools</div>
+                    </div>
+                    <div class="active">
+                      <div class="title">Chrono Pools</div>
+                      <div class="sub-title">
+                        Exotic Farms are a Defi 2.0 farming system that protects depositors from Impermanent Loss while providing high APR. Deliver liquidity tokens (LP) to earn vesting CZF. The amount of vesting CZF is equal to the value of the LP in CZF plus interest. 
+                      </div>
+                    </div>
+                  </div>
+                </div>   
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="xxxxx">
+          <div id="xxxxx" className="jumpMarker" />
+          <div class="timeline">
+            <div class="outer">
+              <div class="card">
+                <div class="info first">
+                  <h3 class="title"></h3>
+                  <p>
+                    <h4>Treasury Revenue</h4>
+                    <h2> LP from Farm 2.0</h2>
+                    Liquidity collected from farm 2.0 such as exotic farm, stim farm will be transfered to czodiac Treasure.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="info second">
+                  <h3 class="title"> </h3>
+                  <p>
+                    <h4>  Protocol Owned Liquidity</h4>
+                    <h2> czodiac Treasury</h2>
+                    Treasury inflow is used to increase Treasury Balance and back outstanding OHM tokens and regulate staking APY
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="info third">
+                  <h3 class="title"></h3>
+                  <p>
+                    <h4>Rising price floor protocol </h4>
+                    <h2>protect from Impermanent Loss</h2>
+                      Compounds yields automatically through a treasury backed currency with intrinsic value
+                  </p>
+                </div>
+              </div>
+               
+            </div>
+          </div>
+        </div>
+
+        <div class="cztoken">
+          <div id="cztoken" className="jumpMarker" />
+          
+          <div class="czfarm">
+            <div id="czfarm" className="jumpMarker" />
+
+            <div class="content-head">
+              <div class="head-title">
+                WHAT'S CZfarm COIN? 
+              </div>
+              <div class="head-decs">
+                CZF is the protocol token for CZodiac. <br/>
+                emission rate fluctuates based on demand.
+              </div>             
+            </div>
+
+            <div class="content-coin">
+              <div class="coin-box box-first">
+                <div class="listed-item">
+                  <div class="coin-list-item">
+                    <div>
+                      &nbsp;
+                    </div>    
+                    <div class="head">
+                      DEFI 2.0
+                      technology
+                    </div>
+                    <div class="body">
+                      earn rewards for farming and staking
+                    </div>               
+                    <div class="cmc">
+                      <StaticImage class="logo-cmc" src="../images/cmc.png" alt="coinmarketcap" />
+                        &nbsp;&nbsp;   <a target="_blank" href="https://coinmarketcap.com/currencies/czfarm/"> coinmarketcap </a>
+                      </div>
+                      <div class="cgo">
+                        <StaticImage class="logo-cgo" src="../images/cgo.png" alt="coingecko" />
+                        &nbsp;&nbsp;  <a target="_blank" href="https://www.coingecko.com/en/coins/czfarm"> coingecko </a>
+                      </div>
+                      <div class="pcs">
+                        <StaticImage class="logo-pcs" src="../images/pcs.png" alt="pancakeswap" />
+                        &nbsp;&nbsp;  <a target="_blank" href="https://pancakeswap.finance/info/token/0xe68b79e51bf826534ff37aa9cee71a3842ee9c70"> pancake swap </a>
+                      </div>                    
+                  </div>
+                </div>                       
+              </div>
+
+              <div class="coin-box box-middle">              
+                <div class="middle-1 logo">
+                  <StaticImage src="../images/czf-3d.png" alt="czf-3d.png" />
+                </div>
+                <div class="middle-1 arrow-2">
+                  <StaticImage src="../images/arrow-1.png" alt="arrow-2" />
+                </div>
+              </div>
+
+              <div class="coin-box box-last">
+                <div class="listed-item">
+                  <div class="coin-list-item">
+                    borrow czusd
+                  </div>
+                  <div class="coin-list-item">
+                    exchange
+                  </div>
+                  <div class="coin-list-item">
+                    stake
+                  </div>
+                  <div class="coin-list-item">
+                    farm
+                  </div>
+                  <div class="coin-list-item">
+                    pool
+                  </div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="czusd">
+            <div id="czusd" className="jumpMarker" />
+            <div class="content-head">
+              <div class="head-title">
+                WHAT'S CZUSD ? 
+              </div>
+              <div class="head-decs">
+              CZUSD is a USD stablecoin.. <br/>
+                Algorithmic peg to $1 BUSD, overcollateralized debt with 0 fees, liquidations, interest.
+              </div> 
+            </div>
+            <div class="content-coin">
+              <div class="coin-box box-first">
+                <div class="listed-item">
+                  <div class="coin-list-item">
+                    <div>
+                      &nbsp;
+                    </div>
+                    <div class="head">
+                      DEFI 2.0
+                      technology
+                    </div>
+                    <div class="body">
+                      earn rewards for farming and staking
+                    </div>     
+                    <div class="bsc">
+                      <StaticImage class="logo-bsc" src="../images/bsc.png" alt="BscScan" />
+                      &nbsp;&nbsp;   <a target="_blank" href="https://bscscan.com/token/0xe68b79e51bf826534ff37aa9cee71a3842ee9c70"> BscScan </a>
+                    </div>
+                    <div class="cgo">
+                      <StaticImage class="logo-cgo" src="../images/pcn.png" alt="poocoin" />
+                      &nbsp;&nbsp;  <a target="_blank" href="https://poocoin.app/tokens/0xe68b79e51bf826534ff37aa9cee71a3842ee9c70"> coingecko </a>
+                    </div>
+                    <div class="pcs">
+                      <StaticImage class="logo-pcs" src="../images/pcs.png" alt="pancakeswap" />
+                      &nbsp;&nbsp;  <a target="_blank" href="https://pancakeswap.finance/info/token/0xe68b79e51bf826534ff37aa9cee71a3842ee9c70"> pancake swap </a>
+                    </div>        
+                  </div>
+                </div>             
+              </div>
+              <div class="coin-box box-middle">
+                <div class="middle-1 logo">
+                  <StaticImage src="../images/czf-3d.png" alt="czf-3d.png" />
+                </div>
+                <div class="middle-1 arrow-2">
+                  <StaticImage src="../images/arrow-1.png" alt="arrow-2" />
+                </div>  
+              </div>
+              <div class="coin-box box-last">
+                <div class="listed-item">
+                  <div class="coin-list-item">
+                    borrow czusd
+                  </div>
+                  <div class="coin-list-item">
+                    exchange
+                  </div>
+                  <div class="coin-list-item">
+                    stake
+                  </div>
+                  <div class="coin-list-item">
+                    farm
+                  </div>
+                  <div class="coin-list-item">
+                    pool
+                  </div>     
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="feature">
         <div id="feature" className="jumpMarker" />
           <h2> Features </h2>
@@ -302,108 +552,6 @@ const IndexPage = () => {
 
           </div>
 
-        </div>
-        
-        <div class="farm">
-          <div id="farm" className="jumpMarker" />
-          <h2> Farm 2.0 </h2>
-          <StaticImage className="image" src="../images/slider.jpg" alt="czfarm" />
-          
-          
-          <div class="center">
-            <div class="traineeship">
-              <div class="process-row">
-                <div class="activity animate-from-bottom__0">
-                  <div class="relative-block">
-                    <div class="activity-icon">
-                      <img class="whiteline" alt="An image" src="https://i.ibb.co/s3znYkF/Picture4.png"/>
-                    </div>
-                    <div class="inactive">
-                      <div class="title">Stim Farms </div>
-                    </div>
-                    <div class="active">
-                      <div class="title">Stim Farms</div>
-                      <div class="sub-title">
-                      Users deposit Liquidity (LP) tokens into Stim Farms during a 24 hour window. After the window expires, rewards vest for 1 week. At the end of the week, CZF is distributed to the depositors equal to the value of the LP plus a high APR.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="activity animate-from-bottom__1">
-                  <div class="relative-block">
-                    <div class="activity-icon">
-                      <img class="whiteline" alt="An image" src="https://i.ibb.co/89r2n9x/Picture2.png" alt="ad-operations-process-strategy-activation"/>
-                    </div>
-                    <div class="inactive">
-                      <div class="title">Exotic Farms </div>
-                    </div>
-                    <div class="active">
-                      <div class="title">Exotic Farms</div>
-                      <div class="sub-title">
-                        Burn CZF to earn rewards each block for the vesting period. Rewards can be fast forwarded from the future at a discount. APR is set at a base level until enough deposits are collected at which point the APR begins to fall.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="activity animate-from-bottom__2">
-                  <div class="relative-block">
-                    <div class="activity-icon">
-                      <img class="whiteline" alt="An image" src="https://i.ibb.co/JqZQxPB/Picture3.png"/>
-                    </div>
-                    <div class="inactive">
-                      <div class="title">Chrono Pools</div>
-                    </div>
-                    <div class="active">
-                      <div class="title">Chrono Pools</div>
-                      <div class="sub-title">
-                        Exotic Farms are a Defi 2.0 farming system that protects depositors from Impermanent Loss while providing high APR. Deliver liquidity tokens (LP) to earn vesting CZF. The amount of vesting CZF is equal to the value of the LP in CZF plus interest. 
-                      </div>
-                    </div>
-                  </div>
-                </div>   
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="cztoken">
-          <div id="cztoken" className="jumpMarker" />
-          <div class="content-head">
-
-            <div class="head-title">
-              WHAT'S CZfarm COIN? 
-            </div>
-
-            <div class="head-decs">
-              CZF is the protocol token for CZodiac. <br/>
-              It is an inflationary token whose supply is set by a balance between minting and burning.
-            </div>
-             
-          </div>
-
-          <div class="content-coin">
-
-            <div class="coin-box box-first">
-              aa bb cc
-            </div>
-            <div class="coin-box box-middle">
-              aa bb cc
-            </div>
-            <div class="coin-box box-last">
-              <div class="coin-list-item">
-                aa1
-              </div>
-              <div class="coin-list-item">
-                bb1
-              </div>
-              <div class="coin-list-item">
-                cc1
-              </div>
-              
-            </div>
-
-          </div>
         </div>
 
         <div class="ourteam">
