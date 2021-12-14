@@ -1222,6 +1222,383 @@ img {
 
 /* cztoken section ends*/
 
+
+/*=== timeline  starts here */
+
+ 
+.xxxxx {
+    max-width:968px;
+      margin-left:auto;
+      margin-right:auto;
+    background: var(--background-color);
+    font-family: var(--font);
+    justify-content: center;
+  }
+   
+  .xxxxx .timeline {
+    background: var(--primary-color);
+    margin: 20px auto;
+    padding: 20px;
+    justify-content: center;
+  }
+  .xxxxx .outer {
+    
+    justify-content: center;
+  }
+  
+   
+  .xxxxx .card {
+    position: relative;
+    max-width: 35em;
+    margin-left:auto;
+      margin-right:auto;
+  }
+  
+   
+  .xxxxx .card:nth-child(odd) {
+    padding: 30px 0 30px 30px;
+  }
+  .xxxxx .card:nth-child(even) {
+    padding: 30px 30px 30px 0;
+  }
+   
+  .xxxxx .card::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    border: solid white;
+  }
+  
+   
+  .xxxxx .card:nth-child(odd)::before {
+    left: 0px;
+    top: -4.5px;
+    bottom: -4.5px;
+    border-width: 5px 0 5px 5px;
+    border-radius: 50px 0 0 50px;
+  }
+  
+   
+  @media only screen and (max-width: 400px) {
+    .xxxxx .card:nth-child(odd)::before {
+      top: -5px;
+      bottom: -5px;
+    }
+  }
+  
+   
+  .xxxxx .card:nth-child(even)::before {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-width: 5px 5px 5px 0;
+    border-radius: 0 50px 50px 0;
+  }
+  
+   
+  .xxxxx .card:first-child::before {
+    border-top: 0;
+    border-top-left-radius: 0;
+  }
+  
+   
+  .xxxxx .card:last-child:nth-child(odd)::before {
+    border-bottom: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+   
+  .xxxxx .card:last-child:nth-child(even)::before {
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+   
+  .xxxxx .info {
+    display: flex;
+    flex-direction: column;
+    
+    color: gray;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .xxxxx .info p{
+    margin-left: 10rem;
+    padding: 5px;
+    font-family: 'Red Hat Text',sans-serif;
+    line-height: 1.7;
+  }
+  .xxxxx .info p h2{
+     font-size: 2rem;
+    margin-bottom: 0.5em;
+  }
+  
+   
+  .xxxxx .title {
+    color: white;
+    position: relative;
+  }
+  
+   
+  .xxxxx .first .title::before,.xxxxx .third .title::before {
+    margin-left: -2.5em;
+    content: "";
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+     
+    
+    width: 100px;
+    height: 100px;
+     
+  }
+  .xxxxx .third .title::before {
+    background-image: url("../images/bsc.png");
+  }
+  .xxxxx .first .title::before {
+    background-image: url("../images/czf-3d.png");
+  }
+  
+  .xxxxx .second .title::before {
+    margin-right: -2.5em;
+    content: "";
+    padding: ;
+    background-image: url("../images/bank.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+    width: 200px;
+    height: 200px;
+  }
+  .xxxxx .second p {
+    margin-left: 0rem;
+    margin-right: 10rem;
+    line-height: 1.7;
+    font-family: 'Red Hat Text',sans-serif;
+  }
+  
+   
+  .xxxxx .card:nth-child(even) > .info > .title {
+    text-align: right;
+  }
+  
+   
+  .xxxxx .card:nth-child(odd) > .info > .title::before {
+    left: -45px;
+  }
+  
+   
+  .xxxxx .card:nth-child(even) > .info > .title::before {
+    right: -45px;
+  } 
+  
+  /*=== timeline ends here */
+
+
+/* cztoken section starts*/
+
+.cztoken {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 968px;
+}
+.cztoken .content-head {
+  text-align: center;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 968px;
+  line-height: 1.5;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem;
+  pointer-events: none;
+}
+.cztoken .content-head .head-title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: proxima nova th;
+  font-size: 3.438rem;
+  font-weight: 700;
+  color: #e4f3ff;
+  background: -webkit-linear-gradient(top,#ffffff 0%,#7a8b99 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 1.1rem;
+  
+}
+
+.cztoken .content-head .decs {
+  font-size: 1.25rem;
+  color: #f1f1f1;
+  padding: 0 15px;
+
+}
+.cztoken .content-coin {
+  position: relative;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.cztoken .content-coin .coin-box {
+  
+  text-align: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.cztoken .content-coin .box-first {
+  width: 45%;
+}
+.cztoken .content-coin .box-middle {
+  width: 30%;
+}
+.cztoken .content-coin .box-last {
+  width: 25%;
+}
+
+.content-coin .box-last .listed-item .coin-list-item {
+  padding: 1rem 1.6rem;
+  border-radius: 7px;
+  background: -webkit-linear-gradient(top,#ffffff 0%,#7a8b99 100%);
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .cztoken .content-coin {
+    display: flex;
+  }
+  .cztoken .content-coin .box-first .listed-item {
+ 
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    background: -webkit-linear-gradient(top,#ffffff 0%,#7a8b99 100%); 
+  }
+
+  .cztoken .content-coin .box-first .listed-item .coin-list-item {
+    text-align: center;
+  }
+  
+  .cztoken .content-coin .box-first .listed-item .coin-list-item .head {
+    font-family: proxima nova th;
+    color: #c9a935;
+    font-size: 1.4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .cztoken .content-coin .box-first .listed-item .coin-list-item .body {
+    font-family: proxima nova th;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .cztoken .content-coin .box-first .listed-item .coin-list-item .cmc {
+    margin-top: 0.5rem;
+    display: inline-flex;
+    width: 100%;
+    padding-left: 2em;
+  }
+  .cztoken .content-coin .box-first .listed-item .coin-list-item .cmc .logo-cmc {
+     width: 2rem;
+  }
+  .cztoken .content-coin .box-first .listed-item .coin-list-item .cgo {
+    margin-top: 0.5rem;
+    display: inline-flex;
+    width: 100%;
+    padding-left: 2em;
+  }
+  .cztoken .content-coin .box-first .listed-item .coin-list-item .cgo .logo-cgo {
+     width: 2rem;
+  }
+  .cztoken .content-coin .box-first .listed-item .coin-list-item .pcs {
+    margin-top: 0.5rem;
+    display: inline-flex;
+    width: 100%;
+    padding-left: 2em;
+  }
+  .cztoken .content-coin .box-first .listed-item .coin-list-item .pcs .logo-pcs {
+     width: 2rem;
+  }
+  .cztoken .content-coin .box-first .listed-item .coin-list-item .bsc {
+    margin-top: 0.5rem;
+    display: inline-flex;
+    width: 100%;
+    padding-left: 2em;
+    
+  }
+  .cztoken .content-coin .box-first .listed-item .coin-list-item .bsc .logo-bsc {
+    width: 2rem;
+  }
+
+  .cztoken .content-coin .box-middle {
+    display: flex;
+    
+  }
+  .cztoken .content-coin .box-middle .middle-1 {
+    width: 50%;
+  }
+}
+*/
+/*
+
+@media screen and (min-width: 1024px) {
+  .cztoken .content-coin {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    z-index: 2;
+  }
+  .box-middle {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .box-middle {
+    
+  }
+  .box-last {
+    text-align: right;
+    justify-content: right;
+  }
+  .cztoken .content-coin .coin-box {
+    width: 33.3%;
+  }
+} 
+
+
+
+
+
+/* cztoken section ends*/
+
 /* partners starts here */
 
 
@@ -1273,7 +1650,7 @@ img {
 
   filter: grayscale(100%);
 }
-
+ 
 .partner .card-narrow p {
   padding: 0 10px;
   font-family: Arial,Helvetica,sans-serif;
