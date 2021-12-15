@@ -301,7 +301,7 @@ const IndexPage = () => {
                   <p>
                     <h4><span>3 </span> Rising price floor protocol </h4>
                     <h3>cz farm</h3>
-                      users get high APR with out having Impermanent loss. .
+                      users get high APR with out having Impermanent loss.
                   </p>
                 </div>
               </div>
@@ -312,13 +312,12 @@ const IndexPage = () => {
 
         <div class="cztoken">
           <div id="cztoken" className="jumpMarker" />
-          
-          <div class="czfarm">
-            <div id="czfarm" />
 
+          <div class="czfarm">
+            <div id="czfarm" className="" />``
             <div class="content-head">
               <div class="head-title">
-                WHAT'S CZfarm COIN? 
+                  CZfarm token
               </div>
               <div class="head-decs">
                 CZF is the protocol token for CZodiac. <br/>
@@ -332,36 +331,42 @@ const IndexPage = () => {
                   <div class="coin-list-item">
                     <div>
                       &nbsp;
-                    </div>    
-                    <div class="head">
-                      DEFI 2.0
-                      technology
                     </div>
-                    <div class="body">
-                      earn rewards for farming and staking
-                    </div>               
+                    <h5>contract</h5>   
+                    <div class="bsc">
+                      <StaticImage class="logo-bsc" src="../images/bsc.png" alt="BscScan" />
+                      &nbsp;&nbsp;   <a target="_blank" href="https://bscscan.com/address/0x7c1608c004f20c3520f70b924e2bfef092da0043"> BscScan </a>
+                    </div>
+                    <h5>avaiable on</h5>     
                     <div class="cmc">
                       <StaticImage class="logo-cmc" src="../images/cmc.png" alt="coinmarketcap" />
-                        &nbsp;&nbsp;   <a target="_blank" href="https://coinmarketcap.com/currencies/czfarm/"> coinmarketcap </a>
-                      </div>
-                      <div class="cgo">
-                        <StaticImage class="logo-cgo" src="../images/cgo.png" alt="coingecko" />
-                        &nbsp;&nbsp;  <a target="_blank" href="https://www.coingecko.com/en/coins/czfarm"> coingecko </a>
-                      </div>
-                      <div class="pcs">
-                        <StaticImage class="logo-pcs" src="../images/pcs.png" alt="pancakeswap" />
-                        &nbsp;&nbsp;  <a target="_blank" href="https://pancakeswap.finance/info/token/0xe68b79e51bf826534ff37aa9cee71a3842ee9c70"> pancake swap </a>
-                      </div>                    
+                      &nbsp;&nbsp;   <a target="_blank" href="https://coinmarketcap.com/currencies/czfarm/"> coinmarketcap </a>
+                    </div>
+                    
+                    <div class="cgo">                       
+                      <StaticImage class="logo-cgo" src="../images/cgo.png" alt="coingecko" />
+                      &nbsp;&nbsp;  <a target="_blank" href="https://www.coingecko.com/en/coins/czfarm"> coingecko </a>
+                    </div>
+                    <h5>buy now</h5>   
+                    <div class="pcs">
+                      <StaticImage class="logo-pcs" src="../images/pcs.png" alt="pancakeswap" />
+                      &nbsp;&nbsp;  <a target="_blank" href="https://pancakeswap.finance/info/token/0x7c1608c004f20c3520f70b924e2bfef092da0043"> pancake swap </a>
+                    </div>
+                    <h5> chart</h5> 
+                    <div class="cgo">
+                      <StaticImage class="logo-cgo" src="../images/pcn.png" alt="poocoin" />
+                      &nbsp;&nbsp;  <a target="_blank" href="https://poocoin.app/tokens/0x7c1608c004f20c3520f70b924e2bfef092da0043"> poocoin </a>
+                    </div>                  
                   </div>
                 </div>                       
               </div>
 
               <div class="coin-box box-middle">              
                 <div class="middle-1 logo">
-                  <StaticImage src="../images/czf-3d.png" alt="czf-3d.png" />
+                  <StaticImage class="logo-img" src="../images/czf-3d.png" alt="czf-3d.png" />
                 </div>
                 <div class="middle-1 arrow-2">
-                  <StaticImage src="../images/arrow-1.png" alt="arrow-2" />
+                  <StaticImage class="arrow-2-img" src="../images/arrow-1.png" alt="arrow-2" />
                 </div>
               </div>
 
@@ -389,73 +394,52 @@ const IndexPage = () => {
 
           <div class="czusd">
             <div id="czusd" className="jumpMarker" />
-            <div class="content-head">
-              <div class="head-title">
-                WHAT'S CZUSD ? 
-              </div>
-              <div class="head-decs">
-              CZUSD is a USD stablecoin.. <br/>
-                Algorithmic peg to $1 BUSD, overcollateralized debt with 0 fees, liquidations, interest.
-              </div> 
-            </div>
             <div class="content-coin">
               <div class="coin-box box-first">
                 <div class="listed-item">
                   <div class="coin-list-item">
-                    <div>
-                      &nbsp;
+                    <div class="content-head">
+                      <div class="head-title">
+                        czusd  
+                      </div>
+                       
                     </div>
-                    <div class="head">
-                      DEFI 2.0
-                      technology
+                    <div class="body">   
+                      CZUSD is a USD stablecoin. The peg is maintained in the short term by the Scorch Peg which trades the token back to $1 and uses the profits to burn CZF. In the long term the peg is held by the Exempt Borrow feature which backs CZUSD with overcollateralized CZF debt.
+                      <div class="ul">
+                        <div class="bsc">
+                          <StaticImage class="logo-bsc" src="../images/bsc.png" alt="BscScan" />
+                          &nbsp;&nbsp;   <a target="_blank" href="https://bscscan.com/address/0xE68b79e51bf826534Ff37AA9CeE71a3842ee9c70"> BscScan </a>
+                        </div>
+
+                        <div class="pcs">
+                          <StaticImage class="logo-pcs" src="../images/pcs.png" alt="pancakeswap" />
+                          &nbsp;&nbsp;  <a target="_blank" href="https://pancakeswap.finance/info/token/0xe68b79e51bf826534ff37aa9cee71a3842ee9c70"> pancake swap </a>
+                        </div>
+                      </div>
+
+                      
+
                     </div>
-                    <div class="body">
-                      stable token
-                    </div>     
-                    <div class="bsc">
-                      <StaticImage class="logo-bsc" src="../images/bsc.png" alt="BscScan" />
-                      &nbsp;&nbsp;   <a target="_blank" href="https://bscscan.com/token/0xe68b79e51bf826534ff37aa9cee71a3842ee9c70"> BscScan </a>
-                    </div>
-                    <div class="cgo">
-                      <StaticImage class="logo-cgo" src="../images/pcn.png" alt="poocoin" />
-                      &nbsp;&nbsp;  <a target="_blank" href="https://poocoin.app/tokens/0xe68b79e51bf826534ff37aa9cee71a3842ee9c70"> coingecko </a>
-                    </div>
-                    <div class="pcs">
-                      <StaticImage class="logo-pcs" src="../images/pcs.png" alt="pancakeswap" />
-                      &nbsp;&nbsp;  <a target="_blank" href="https://pancakeswap.finance/info/token/0xe68b79e51bf826534ff37aa9cee71a3842ee9c70"> pancake swap </a>
-                    </div>        
+                                   
                   </div>
-                </div>             
+                </div>                       
               </div>
-              <div class="coin-box box-middle">
-                <div class="middle-1 logo">
-                  <StaticImage src="../images/czf-3d.png" alt="czf-3d.png" />
-                </div>
-                <div class="middle-1 arrow-2">
-                  <StaticImage src="../images/arrow-1.png" alt="arrow-2" />
-                </div>  
+
+              <div class="coin-box box-middle">    
+                <div class="sonar-wrapper">
+	                <div class="sonar-emitter middle">
+                  <StaticImage class="logo "src="../images/czusd-logo.png" alt="czf-3d.png" />
+                    <div class="sonar-wave"></div>
+                  </div>
+                </div>       
+                
+                
               </div>
-              <div class="coin-box box-last">
-                <div class="listed-item">
-                  <div class="coin-list-item">
-                    borrow czusd
-                  </div>
-                  <div class="coin-list-item">
-                    exchange
-                  </div>
-                  <div class="coin-list-item">
-                    stake
-                  </div>
-                  <div class="coin-list-item">
-                    farm
-                  </div>
-                  <div class="coin-list-item">
-                    pool
-                  </div>     
-                </div>
-              </div>
+
             </div>
           </div>
+
         </div>
 
         <div class="feature">
