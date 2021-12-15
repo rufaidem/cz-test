@@ -314,7 +314,7 @@ const IndexPage = () => {
           <div id="cztoken" className="jumpMarker" />
 
           <div class="czfarm">
-            <div id="czfarm" className="" />``
+            <div id="czfarm" className="" />
             <div class="content-head">
               <div class="head-title">
                   CZfarm token
