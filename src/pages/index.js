@@ -209,7 +209,7 @@ const IndexPage = () => {
 
         <div class="farm">
           <div id="farm" className="jumpMarker" />
-          <h2> Farm 2.0 </h2>
+          
           <StaticImage className="image" src="../images/slider.jpg" alt="czfarm" />
           
           
@@ -522,15 +522,6 @@ const IndexPage = () => {
                 <h3>Scorch Peg</h3>
                 <span class="tooltiptext">
                 Automatically pegs CZUSD to $1 by burning CZF. The peg deposits trading profits from holding the peg into vaults to earn interest. This interest is then used to burn CZF, reducing supply.
-                </span>
-              </div> 
-            </div>
-
-            <div class="box">   
-              <div class="feature-pop-text">
-                <h3>Catalytic Development</h3>
-                <span class="tooltiptext">
-                CZodiac community members building products receive a salary directly tied to the value of CZF. These development incentives catalyze products that increase the value of CZF.
                 </span>
               </div> 
             </div>
