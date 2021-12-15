@@ -1472,7 +1472,7 @@ img {
   margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 767px) {
   .cztoken .czfarm .content-coin {
     display: flex;
   }
@@ -1554,7 +1554,7 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 968px) {
   .cztoken .czfarm .content-coin .coin-box {
     width: 100%;
     display: block;
@@ -1563,7 +1563,8 @@ img {
   }
   .cztoken .czfarm .content-coin .box-middle {
     margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
+
   }
   .cztoken .czfarm .content-coin .box-middle .logo-img {
     
@@ -1587,6 +1588,7 @@ img {
     90deg);
         transform: rotate(
     90deg);
+    width: 40%;
   }
   .cztoken .czfarm .content-coin .box-first .listed-item {
  
@@ -1805,7 +1807,7 @@ img {
     width: 100%;
   }
   
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 968px) {
   .cztoken .czusd .content-coin .box-first .listed-item .coin-list-item .body {
     color: #ffffff;
     margin-bottom: 1rem;
@@ -1824,6 +1826,12 @@ img {
     display: flex;
     flex-direction: column;
   }
+}
+@media screen and (min-width: 968px) {
+  .cztoken .czusd .content-coin .box-first .listed-item .coin-list-item .body .ul {
+    flex-direction: column;
+  }
+  
 }
 
 /* sonar effects starts */
