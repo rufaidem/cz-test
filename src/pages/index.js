@@ -243,7 +243,9 @@ const IndexPage = () => {
                     <div class="active">
                       <div class="title">Exotic Farms</div>
                       <div class="sub-title">
-                        Burn CZF to earn rewards each block for the vesting period. Rewards can be fast forwarded from the future at a discount. APR is set at a base level until enough deposits are collected at which point the APR begins to fall.
+                      Exotic Farms are a Defi 2.0 farming system that protects depositors from Impermanent Loss while providing high APR. Deliver liquidity tokens (LP) to earn vesting CZF. The amount of vesting CZF is equal to the value of the LP in CZF plus interest. 
+
+                        
                       </div>
                     </div>
                   </div>
@@ -259,7 +261,7 @@ const IndexPage = () => {
                     <div class="active">
                       <div class="title">Chrono Pools</div>
                       <div class="sub-title">
-                        Exotic Farms are a Defi 2.0 farming system that protects depositors from Impermanent Loss while providing high APR. Deliver liquidity tokens (LP) to earn vesting CZF. The amount of vesting CZF is equal to the value of the LP in CZF plus interest. 
+                      Burn CZF to earn rewards each block for the vesting period. Rewards can be fast forwarded from the future at a discount. APR is set at a base level until enough deposits are collected at which point the APR begins to fall.
                       </div>
                     </div>
                   </div>
@@ -272,7 +274,7 @@ const IndexPage = () => {
 
         <div class="xxxxx">
           <div id="xxxxx" className="jumpMarker" />
-          <h2> How Rising Price Floor works </h2>
+          <h2> How CZF Rising Price Floor works </h2>
           <div class="timeline">
             <div class="outer">
               <div class="card">
