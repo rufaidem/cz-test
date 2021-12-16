@@ -284,6 +284,7 @@ const IndexPage = () => {
                     <h4><span>1 </span> Treasury Revenue</h4>
                     <h3> LP from Farm 2.0</h3>
                     Liquidity collected from farm 2.0 such as exotic farm, stim farm will be transfered to czodiac Treasure.
+                    Exotic Farms gradually increase the percentage of POOL
                   </p>
                 </div>
               </div>
@@ -293,7 +294,9 @@ const IndexPage = () => {
                   <p>
                     <h4> <span>2 </span>  Protocol Owned Liquidity</h4>
                     <h3> czodiac Treasury</h3>
-                    Treasury inflow is saved as Protocol Owned Liquidity by tying LP to protocol and operated by Dao .
+                    Treasury inflow is saved as Protocol Owned Liquidity by tying LP to protocol and operated by Dao.
+                     
+                    community can vote to burn some LP and use the assets to buy and burn CZF.
                   </p>
                 </div>
               </div>
@@ -304,6 +307,7 @@ const IndexPage = () => {
                     <h4><span>3 </span> Rising price floor protocol </h4>
                     <h3>cz farm</h3>
                       users get high APR with out having Impermanent loss.
+                      Protocol owned Liquidity will be used according to community vote to create a rising price floor.
                   </p>
                 </div>
               </div>
