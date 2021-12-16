@@ -307,7 +307,7 @@ const IndexPage = () => {
                     <h4><span>3 </span> Rising price floor protocol </h4>
                     <h3>cz farm</h3>
                       users get high APR with out having Impermanent loss.
-                      Protocol owned Liquidity will be used according to community vote to create a rising price floor.
+                      
                   </p>
                 </div>
               </div>
